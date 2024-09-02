@@ -33,3 +33,34 @@ const greet = function () {
 
 // null ka type object ata hai
 // bigNumber => bigint
+
+// +++++++++++++++++++++++++++++  Memory  +++++++++++++++++++++++++++++++++
+
+// Stack  (Primative)  , Heap (Non-Primitive) ;
+
+// in Stack memory mujhe copy milta
+
+// in Heap memory original value milta hai( refrence of value)
+// if value change the heap memory value should be changed
+
+let fruitName = "banana";
+
+let anotherName = fruitName;
+anotherName = "Apple";
+
+console.log(fruitName);
+
+console.log(anotherName);
+
+let user1 = {
+  email: "hjdauhjgajvhs@gmail.com",
+  name: "pradeep",
+  age: 24,
+};
+
+let user2 = user1;
+
+user2.email = "pradeep@gmail.com";
+
+console.log(user1);
+console.log(user2);
