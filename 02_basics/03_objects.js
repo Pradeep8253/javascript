@@ -9,6 +9,3 @@ const machine  =  {
     Dob : 24/11/2000,
     addres : "hjsdghsdfghjd"
 }
-//
-//
-//
