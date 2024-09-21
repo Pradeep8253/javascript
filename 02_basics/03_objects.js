@@ -11,6 +11,7 @@ const machine  =  {
     Dob : 24/11/2000,
     addres : "hjsdghsdfghjd"
 }
+<<<<<<< HEAD
 
 machine.name = "machine2"
 // Object.freeze(machine)
@@ -30,3 +31,6 @@ machine.greeting =  function () {
 }
 
 console.log(machine.greeting());
+=======
+//
+>>>>>>> 6afed6f2224b4b92fdd25c6c93a8c86a889aa157
