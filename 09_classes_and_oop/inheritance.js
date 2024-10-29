@@ -26,3 +26,4 @@ const  shivam  =  new Teacher  ("shivam" , "shivam@gmail.com" , "shivam@123")
 shivam.addCourse();
 
 console.log(shivam instanceof Teacher);
+
